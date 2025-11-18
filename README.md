@@ -28,29 +28,29 @@ multicultural helper는 한국에 처음 오는 외국인을 위해 기본 정�
 
 ## 기술 스택
 
-Language: Python
-Framework: FastAPI (예정)
-Model: LLM Fine-tuning 기반(예정)
-Data: 사용자 제작 문화적응 Q&A 데이터셋
-Tools: Colab, HuggingFace, GitHub
+Language: Python  
+Framework: FastAPI (예정)  
+Model: LLM Fine-tuning 기반(예정)  
+Data: 사용자 제작 문화적응 Q&A 데이터셋  
+Tools: Colab, HuggingFace, GitHub  
 Etc: JSON/CSV 기반 데이터 파이프라인
 
 ## 프로젝트 구조
 
 cultureassist/
-├── data/
-│   ├── raw/                          # 원본 Q&A 데이터
-│   ├── processed/                    # 정제된 단문 중심 Q&A
-│   └── schema/                       # 데이터 형식 정의
-├── model/
-│   ├── preprocessing/                # 질문 정제 및 언어 감지
-│   ├── finetune/                     # 파인튜닝 스크립트
-│   └── inference/                    # 모델 추론 코드
-├── api/
-│   └── main.py                       # FastAPI 서버 (예정)
-├── utils/
-│   └── formatter.py                  # 질문/답변 포맷팅
-├── README.md
+├── data/  
+│   ├── raw/                          # 원본 Q&A 데이터  
+│   ├── processed/                    # 정제된 단문 중심 Q&A  
+│   └── schema/                       # 데이터 형식 정의  
+├── model/  
+│   ├── preprocessing/                # 질문 정제 및 언어 감지  
+│   ├── finetune/                     # 파인튜닝 스크립트  
+│   └── inference/                    # 모델 추론 코드  
+├── api/  
+│   └── main.py                       # FastAPI 서버 (예정)  
+├── utils/  
+│   └── formatter.py                  # 질문/답변 포맷팅  
+├── README.md  
 └── requirements.txt
 
 ## 실행 방법
