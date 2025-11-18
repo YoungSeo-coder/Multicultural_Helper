@@ -37,7 +37,7 @@ Etc: JSON/CSV 기반 데이터 파이프라인
 
 ## 프로젝트 구조
 
-cultureassist/
+cultureassist/  
 ├── data/  
 │   ├── raw/                          # 원본 Q&A 데이터  
 │   ├── processed/                    # 정제된 단문 중심 Q&A  
